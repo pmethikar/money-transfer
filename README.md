@@ -1,12 +1,12 @@
 money-transfer is a simple application meant to transfer money from one Account to another. 
 
-##Libraries and Frameworks used:
+## Libraries and Frameworks used:
 1. Apache CXF for REST 
 2. JUnit for Testing
 
-##API descriptions
+## API descriptions
 
-###Admin API:
+### Admin API:
 Purpose: Add and get account. Only basic things taken care, for simplicity, since not part of main requirement.
 #### POST /v1/admin/account 
 Creates account <br/>
@@ -40,7 +40,7 @@ Curl script:
 curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET localhost:9000/v1/admin/account/6
 ```
 
-###MoneyTransfer API:
+### MoneyTransfer API:
 Purpose: API for Transfer between accounts
 
 #### POST /v1/transfer
